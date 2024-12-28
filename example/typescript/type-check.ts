@@ -99,7 +99,7 @@ options = {
   "frontMatter": /---/,
   "handleRuleFailures": false,
   "noInlineConfig": false,
-  "markdownItFactory": () => new markdownIt()
+  "markdownItFactory": () => markdownIt()
 };
 
 assertLintResults(lintSync(options));
